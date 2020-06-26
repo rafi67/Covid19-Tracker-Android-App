@@ -16,6 +16,7 @@ import com.example.coronavirus_tracker.R;
 
 import java.util.ArrayList;
 
+
 public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapter.ViewHolder> {
 
     ArrayList<CovidCountry> covidCountries;
@@ -31,7 +32,6 @@ public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapte
     public CovidCountryAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_covid_country, parent, false);
-
 
         return new ViewHolder(view);
     }
