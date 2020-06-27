@@ -3,11 +3,8 @@ package com.example.coronavirus_tracker.ui.country;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.example.coronavirus_tracker.R;
 
 public class CovidCountryDetail extends AppCompatActivity {
@@ -29,12 +26,10 @@ public class CovidCountryDetail extends AppCompatActivity {
         tvDetailTotalRecovered = findViewById(R.id.tvDetailTotalRecovered);
         tvDetailTotalActive = findViewById(R.id.tvDetailTotalActive);
         tvDetailTotalCritical = findViewById(R.id.tvDetailTotalCritical);
-
         // call Covid Country
         CovidCountry covidCountry = getIntent().getParcelableExtra("EXTRA_COVID");
 
         // set text view
-
         tvDetailCountryName.setText(covidCountry.getmCovidCountry());
         tvDetailTotalCases.setText(covidCountry.getmCases());
         tvDetailTodayCases.setText(covidCountry.getmTodayCases());
@@ -43,5 +38,6 @@ public class CovidCountryDetail extends AppCompatActivity {
         tvDetailTotalRecovered.setText(covidCountry.getmRecovered());
         tvDetailTotalActive.setText(covidCountry.getmActive());
         tvDetailTotalCritical.setText(covidCountry.getmCritical());
+
     }
 }
