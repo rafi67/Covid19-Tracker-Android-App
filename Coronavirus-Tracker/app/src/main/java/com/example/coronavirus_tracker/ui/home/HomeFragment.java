@@ -49,7 +49,7 @@ public class HomeFragment extends Fragment {
     }
 
     private String getDate(long milliSecond){
-        SimpleDateFormat formatter = new SimpleDateFormat("EEE, dd MM yyyy hh:mm:ss aaa");
+        SimpleDateFormat formatter = new SimpleDateFormat("EEE, dd MMM yyyy hh:mm:ss aaa");
 
         Calendar calender = Calendar.getInstance();
         calender.setTimeInMillis(milliSecond);

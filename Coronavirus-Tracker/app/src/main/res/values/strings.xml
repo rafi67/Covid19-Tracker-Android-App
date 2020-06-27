@@ -6,4 +6,10 @@
     <string name="info_total">Total Confirmed</string>
     <string name="info_recover">Total Recovered</string>
     <string name="info_death">Total Deaths</string>
+    <string name="info_totalcasesincountry">Total Cases</string>
+    <string name="info_todaycases">Today Cases</string>
+    <string name="info_todaydeath">Today Deaths</string>
+    <string name="info_todayrecover">Today Recovered</string>
+    <string name="info_active">Total Active</string>
+    <string name="info_critical">Total Critical</string>
 </resources>
