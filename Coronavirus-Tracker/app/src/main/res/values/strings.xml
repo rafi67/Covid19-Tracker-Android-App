@@ -13,4 +13,6 @@
     <string name="info_active">Total Active</string>
     <string name="info_critical">Total Critical</string>
     <string name="search">Search</string>
+    <string name="sort_alpha">Alphabet</string>
+    <string name="sort_totalcases">Total Cases</string>
 </resources>
